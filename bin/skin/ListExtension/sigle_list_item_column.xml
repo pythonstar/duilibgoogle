@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+  <ListContainerElement >
+	<VerticalLayout>
+		<Container />
+			<CheckBox name="selectme" endellipsis="true"  text="亲，选我吧！" textcolor="#FF386382" hottextcolor="#FF386382" selectedtextcolor="#FF386382" disabledtextcolor="#FFbac0c5" textpadding="20,3,0,0" align="left" selectedimage="file='checkbox_p.png' dest='0,2,15,17'" normalimage="file='checkbox_h.png' dest='0,2,15,17'"  />
+	<Container />
+	</VerticalLayout>
+	<VerticalLayout inset="4,4,4,4">
+		<Container />
+	<Edit text="测试文本" bordersize="1" height="20" bordercolor="#FF4775CC" name="domain" ></Edit>
+	<Container />
+	</VerticalLayout>
+	<HorizontalLayout >
+	<VerticalLayout>
+	<Button text="按钮1" width="50" pushedimage="button_down.bmp" hotimage="button_over.bmp" normalimage="button_nor.bmp" name="ttt" ></Button>
+	<Button text="按钮2" width="50" pushedimage="button_down.bmp" hotimage="button_over.bmp" normalimage="button_nor.bmp" name="ttt" ></Button>
+	<Label text="这是从XML文件中加载的列表项"></Label>
+	</VerticalLayout>
+	</HorizontalLayout>
+  </ListContainerElement>
+</Window>
