@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+	<ListContainerElement >
+		<Label text="编号"></Label>
+		<Label text="文件名"></Label>
+		<Label text="大小"></Label>
+		<Label text="进度"></Label>
+	</ListContainerElement> 
+</Window>

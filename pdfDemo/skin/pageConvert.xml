@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,400">
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <Font name="Arial" size="12" bold="false" italic="false" default="true" />
+    <Font name="Arial" size="12" bold="true" italic="false" />
+    <VerticalLayout height="500" bkcolor="#FFFFFFFF">
+        <Container width="800" height="10" />
+        <List name="lstFile" bkcolor="#FFFFFFFF" menu="true" hscrollbar="true" vscrollbar="true" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="list_header_bg.png" itemshowhtml="true">
+            <ListHeader name="domain" height="30" bkimage="list_header_bg.png">
+                <ListHeaderItem text="编号" width="60" minwidth="60" textcolor="#FF000000" sepwidth="1" align="center" hotimage="list_header_hot.png" pushedimage="list_header_pushed.png" sepimage="list_header_sep.png" />
+                <ListHeaderItem text="文件名" width="300" minwidth="160" textcolor="#FF000000" sepwidth="1" align="center" hotimage="list_header_hot.png" pushedimage="list_header_pushed.png" sepimage="list_header_sep.png" />
+                <ListHeaderItem text="页数选择" width="140" minwidth="160" textcolor="#FF000000" sepwidth="1" align="center" hotimage="list_header_hot.png" pushedimage="list_header_pushed.png" sepimage="list_header_sep.png" />
+                <ListHeaderItem text="文件大小" width="110" minwidth="100" textcolor="#FF000000" sepwidth="1" align="center" hotimage="list_header_hot.png" pushedimage="list_header_pushed.png" sepimage="list_header_sep.png" />
+                <ListHeaderItem text="转换进度" width="140" minwidth="100" textcolor="#FF000000" sepwidth="1" align="center" hotimage="list_header_hot.png" pushedimage="list_header_pushed.png" sepimage="list_header_sep.png" />
+            </ListHeader>
+        </List>
+    </VerticalLayout>
+</Window>

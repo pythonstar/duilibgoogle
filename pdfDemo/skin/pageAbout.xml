@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,400">
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <HorizontalLayout width="820" height="500" bkcolor="#FFFFFFFF">
+        <VerticalLayout name="HorizontalLayoutUI1" bkcolor="#FFFFFFFF">
+            <HorizontalLayout height="40">
+                <Label text="{b}{f 1}使用帮助{/f}{b}" float="true" pos="4,24,0,0" width="66" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="lefttop" />
+            </HorizontalLayout>
+            <HorizontalLayout height="1">
+                <Container bkimage="horizontal_border.bmp" />
+            </HorizontalLayout>
+            <VerticalLayout vscrollbar="true">
+                <Text text="{p}{c #F27D30}如何购买？{/c}点击“注册”或软件右上角的下拉菜单“软件注册”，会显示如何购买的。{y 20}{n}{y 20}{n}{c #F27D30}机器码在哪里？{/c}点击“注册”或软件右上角的下拉菜单“软件注册”，会弹出来的，直接复制即可。{y 20}{n}{y 20}{n}{c #F27D30}可以下载哪些网站的相册或图片？{/c}目前支持下载的有：QQ空间相册，又拍，淘宝，天猫，阿里巴巴，百度相册，人人网，flickr，网易163云相册，poco，京东等为一体，均可下载，还可以持续支持。{y 20}{n}{y 20}{n}{c #F27D30}下载的是原图吗？{/c}只要是网站上出现的是原图就可以下载，当然如果因为之前上传的时候图片被网站压缩了，那也只能下载网上显示的最大的图了。{y 20}{n}{y 20}{n}{c #F27D30}重装系统还能使用吗？{/c}软件为一机一码，一台电脑一个授权，重装系统并不影响。{y 20}{n}{y 20}{n}{c #F27D30}为什么会在使用的时候出现脚本错误或者获取不到的情况？{/c}网站的图片数据可能会有更新升级的时候，只需要反馈给作者，相应地升级脚本即可。{y 20}{n}{y 20}{n}{c #F27D30}可以定制吗？{/c}如果目前下载的格式不符合您的要求，或者需要下载其他网站的图片，可以联系作者定制。{y 20}{n}{y 20}{n}{c #F27D30}如何联系？{/c}请进售后QQ群：{c #F27D30}423148763{/c}" textpadding="5,10,2,5" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+            </VerticalLayout>
+        </VerticalLayout>
+        <VerticalLayout width="1" inset="0,1,0,1">
+            <Container bkimage="vertical_border.bmp" />
+        </VerticalLayout>
+        <VerticalLayout width="210" inset="8,15,8,15">
+            <VerticalLayout width="234" height="250">
+                <Text text="{b}{f 1}软件推荐{/f}{b}" width="100" height="15" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="lefttop" />
+                <HorizontalLayout height="1">
+                    <Container bkimage="horizontal_border.bmp" />
+                </HorizontalLayout>
+                <Button name="btnAdsTaobaoCSV" text="淘宝店铺宝贝复制数据包下载器 " float="true" pos="10,30,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsTaobao" text="淘宝宝贝图片下载器" float="true" pos="10,84,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsCamcap" text="鹰眼摄像头监控录像软件" float="true" pos="10,57,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsYupoo" text="又拍相册图片下载器" float="true" pos="9,138,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsAlibaba" text="阿里巴巴图片下载器" float="true" pos="9,111,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsQQ" text="QQ空间相册批量下载器" float="true" pos="9,165,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsRR" text="人人相册批量下载器" float="true" pos="9,192,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Button name="btnAdsImagebat" text="图片批量处理软件" float="true" pos="9,218,0,0" width="196" height="18" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+            </VerticalLayout>
+            <HorizontalLayout height="1">
+                <Container bkimage="horizontal_border.bmp" />
+            </HorizontalLayout>
+            <VerticalLayout>
+                <Label float="true" pos="6,9,0,0" width="140" height="140" bkimage="gzh.jpg" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </VerticalLayout>
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

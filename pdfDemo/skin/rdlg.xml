@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,200" caption="0,0,0,36" roundcorner="4,4">
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <VerticalLayout width="400" height="200" bkcolor="#FF405F7C" inset="4,0,4,4">
+        <HorizontalLayout height="32" inset="2,2,2,0">
+            <Label text="软件注册" width="356" height="21" textpadding="2,0,2,0" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" font="0" align="leftvcenter" />
+            <Button name="closebtn" maxheight="17" maxwidth="45" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;sys_dlg_close.png&apos; source=&apos;90,0,135,17&apos;" hotimage="file=&apos;sys_dlg_close.png&apos; source=&apos;45,0,90,17&apos;" pushedimage="file=&apos;sys_dlg_close.png&apos; source=&apos;0,0,45,17&apos;" />
+            <Button name="btnCancel" tooltip="点击取消" float="true" pos="360,3,0,0" width="28" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="close1_normal.png" hotimage="close1_hover.png" pushedimage="close1_press.png" />
+        </HorizontalLayout>
+        <Container bkcolor="#FFFFFFFF">
+            <Edit name="edtMachineCode" bordersize="1" float="true" pos="65,19,0,0" width="250" height="25" bkcolor="#FFFFFFFF" bordercolor="#FF4EA0D1" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" readonly="true" />
+            <Button name="CancleBtn" tooltip="点击取消" float="true" pos="40,100,0,0" width="88" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;cancelBtn.png&apos; source=&apos;0,0,88,29&apos;" hotimage="file=&apos;cancelBtn.png&apos; source=&apos;89,0,177,29&apos;" pushedimage="file=&apos;cancelBtn.png&apos; source=&apos;178,0,266,29&apos;" />
+            <Text text="机器码：" float="true" pos="10,23,0,0" width="69" height="21" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            <Text text="注册码：" float="true" pos="10,62,0,0" width="69" height="21" textpadding="2,0,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            <Edit name="edtRegcode" bordersize="1" float="true" pos="65,59,0,0" width="250" height="25" bkcolor="#FFFFFFFF" bordercolor="#FF4EA0D1" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            <Button name="btnCopyCode" text="复制机器码" float="true" pos="321,15,0,0" width="68" height="30" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            <Button name="btnBuyRegCode" text="购买注册码{y 20}{n}{c #F27D30}实时发送注册码{/c}" float="true" pos="321,50,0,0" width="62" height="60" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+            <Button name="btnReg" text="注册" float="true" pos="80,126,0,0" width="86" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_normal.png" hotimage="button_hover.png" pushedimage="button_pushed.png" />
+            <Button name="btnCancel" text="取消" float="true" pos="214,126,0,0" width="86" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_normal.png" hotimage="button_hover.png" pushedimage="button_pushed.png" />
+            <Label text="直接点“购买注册码”即可，全自动自动发送注册码，买完即用!" float="true" pos="14,101,0,0" width="355" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+        </Container>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,400">
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <HorizontalLayout width="800" height="500" bkcolor="#FFFFFFFF">
+        <VerticalLayout>
+            <HorizontalLayout width="800" height="40">
+                <Label float="true" pos="23,16,0,0" width="20" height="20" bkimage="setting.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Label text="{b}{f 1}普通选项设置{/f}{b}" float="true" pos="52,18,0,0" width="80" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="lefttop" />
+            </HorizontalLayout>
+            <HorizontalLayout height="1">
+                <Container bkimage="horizontal_border.bmp" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="120" inset="20,4,20,0">
+                <Edit name="edtImageSavePath" float="true" pos="104,17,0,0" width="334" height="30" bkimage="search_bg.png" bkcolor="#FFFFFFFF" mouse="false" textpadding="4,5,34,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" readonly="true" normalimage="file=&apos;dest=&apos;436,2,462,26&apos;" />
+                <Label text="图片保存目录：" float="true" pos="15,17,0,0" width="81" height="26" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+                <Button name="btnSelSavePath" tooltip="设置下载图片保存目录" float="true" pos="408,25,0,0" width="23" height="17" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="openfile.png" />
+                <Option name="chkAutoNumber" text="自动给下载的图片进行编号" float="true" pos="15,60,0,0" width="182" height="16" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;unchecked.png&apos; dest=&apos;0,0,16,16&apos;" selected="true" selectedimage="file=&apos;checked.png&apos; dest=&apos;0,0,16,16&apos;" />
+                <Option name="chkAutoShutdown" text="下载任务完成后自动关机" float="true" pos="402,60,0,0" width="171" height="16" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;unchecked.png&apos; dest=&apos;0,0,16,16&apos;" selected="true" selectedimage="file=&apos;checked.png&apos; dest=&apos;0,0,16,16&apos;" />
+                <Option name="chkShowPreview" text="显示预览图" tooltip="显示预览图更直观，不显示预览图速度更快" float="true" pos="200,59,0,0" width="109" height="16" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;unchecked.png&apos; dest=&apos;0,0,16,16&apos;" selected="true" selectedimage="file=&apos;checked.png&apos; dest=&apos;0,0,16,16&apos;" />
+                <Button name="btnOpenSavePath" text="打开图片保存目录" float="true" pos="450,17,0,0" width="105" height="30" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="40">
+                <Label float="true" pos="23,16,0,0" width="20" height="20" bkimage="setting.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="lefttop" />
+                <Label text="{b}{f 1}高级选项设置{/f}{b}" float="true" pos="52,18,0,0" width="86" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="lefttop" />
+            </HorizontalLayout>
+            <HorizontalLayout height="1">
+                <Container height="10" bkimage="horizontal_border.bmp" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="35" inset="20,4,20,0">
+                <Label text="下载模式：" width="60" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+                <Combo name="cmbDownMode" width="285" height="29" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" textpadding="10,0,0,0" normalimage="file=&apos;combo.png&apos; source=&apos;0,0,100,22&apos; corner=&apos;2,2,20,2&apos;" hotimage="file=&apos;combo.png&apos; source=&apos;0,22,100,44&apos; corner=&apos;2,2,22,2&apos;" pushedimage="file=&apos;combo.png&apos; source=&apos;0,44,100,66&apos; corner=&apos;2,2,22,2&apos;" dropboxsize="0,150" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="33" inset="20,4,20,0">
+                <Label text="下载单个图片超时：" width="111" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+                <Combo name="cmbTimeoutSec" width="107" height="29" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" textpadding="10,0,0,0" normalimage="file=&apos;combo.png&apos; source=&apos;0,0,100,22&apos; corner=&apos;2,2,20,2&apos;" hotimage="file=&apos;combo.png&apos; source=&apos;0,22,100,44&apos; corner=&apos;2,2,22,2&apos;" pushedimage="file=&apos;combo.png&apos; source=&apos;0,44,100,66&apos; corner=&apos;2,2,22,2&apos;" dropboxsize="0,150" />
+                <Label text="秒不成功自动下载下一张" width="136" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="33" inset="20,4,20,0">
+                <Label text="每成功下载一张图片，延迟：" width="159" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+                <Combo name="cmbSleepMilliSec" width="62" height="29" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" textpadding="10,0,0,0" normalimage="file=&apos;combo.png&apos; source=&apos;0,0,100,22&apos; corner=&apos;2,2,20,2&apos;" hotimage="file=&apos;combo.png&apos; source=&apos;0,22,100,44&apos; corner=&apos;2,2,22,2&apos;" pushedimage="file=&apos;combo.png&apos; source=&apos;0,44,100,66&apos; corner=&apos;2,2,22,2&apos;" dropboxsize="0,150" />
+                <Label text="毫秒后下载下一张[1000毫秒 = 1秒，建议值：0 ~ 1000]" width="301" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" showhtml="true" align="leftvcenter" />
+            </HorizontalLayout>
+            <HorizontalLayout width="800" height="44" inset="20,4,20,0">
+                <Option name="chkDownUnique" text="以前下载过的图片不再下载" float="true" pos="22,24,0,0" width="189" height="16" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;unchecked.png&apos; dest=&apos;0,0,16,16&apos;" selected="true" selectedimage="file=&apos;checked.png&apos; dest=&apos;0,0,16,16&apos;" />
+                <Button name="btnViewDownHis" text="[查看下载历史]" visible="false" float="true" pos="314,17,0,0" width="95" height="30" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="center" />
+                <Button name="btnClearDownHis" text="[清空下载历史]" float="true" pos="202,17,0,0" width="95" height="30" textcolor="#0000C0FF" disabledtextcolor="#FFA7A6AA" align="center" />
+            </HorizontalLayout>
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

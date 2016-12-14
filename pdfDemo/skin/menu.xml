@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="140,196">
+    <VerticalLayout  bkimage="file='menu_bk.png' corner='40,8,8,8'"  hole="false" bkcolor="#FFFFFFFF">
+        <List width="140" ibkcolor="#FFFFFFFF" menu="true" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFC1E3FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="list_header_bg.png" itemshowhtml="true" vscrollbar="true" hscrollbar="true" header="hidden" inset="8,8,8,8">
+            <ListHeader />
+            <ListContainerElement name="menuSetting" height="22" inset="40,0,0,0">
+                <Label text="选项设置" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuHardcode" height="22" inset="40,0,0,0">
+                <Label text="机器码" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuReg" height="22" inset="40,0,0,0">
+                <Label text="软件注册" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuBuy" height="22" inset="40,0,0,0">
+                <Label text="我要购买" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuCheckUpdate" height="22" inset="40,0,0,0">
+                <Label text="更新升级" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuViewHome" height="22" inset="40,0,0,0">
+                <Label text="官方网站" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement name="menuEmailme" height="22" inset="40,0,0,0">
+                <Label text="给我写信" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+            <ListContainerElement height="1" inset="40,0,0,0">
+                <Container bkimage="horizontal_border.bmp" />
+            </ListContainerElement>
+            <ListContainerElement name="menuExit" height="22" inset="40,0,0,0">
+                <Label text="退出" disabledtextcolor="#FFA7A6AA" align="leftvcenter" />
+            </ListContainerElement>
+        </List>
+    </VerticalLayout>
+</Window>
